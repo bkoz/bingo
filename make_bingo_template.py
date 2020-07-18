@@ -6,14 +6,22 @@
 #
 # Create an html page of players with playerks to bingo cards.
 #
-# This needs to be modified to create templates/index.html
-#
 
 def makePage() :
-  title = "<title>Let's Play Bingo</title>"
-  header = "<h1>Bingo Cards</h1>"
+  base = "{% extends \"base.html\" %}"
+  title = "{% block title %}Let's Play Bingo!{% endblock %}"
+  page_content = "{% block page_content %}"
+  page_header = "<div class=\"page-header\">"
+  h1 = "<h1>Select your name to get a Bingo card</h1>"
+  print(base)
   print(title)
-  print(header)
+  print(page_content)
+  print(page_header)
+  print(h1)
+
+def makePageEnd():
+  print("</div>")
+  print("{% endblock %}")
 
 makePage()
 
@@ -24,3 +32,5 @@ with open(players, 'r') as playerLines:
     for player, card in zip(playerLines, cardLines):
         s = "<h2><a href=https://"+str.rstrip(card)+">"+str.rstrip(player)+"</a></h2>"
         print(s)
+
+makePageEnd()

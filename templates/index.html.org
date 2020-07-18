@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}Let's Play Bingo!{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+    <h1>Let's Play Bingo</h1>
+    <h2><a href=https://mfbc.us/m/rjvmtk/1>Alice</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/2>Patrick</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/3>Clair</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/4>Anne</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/5>Filipo</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/6>Judy</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/7>Becky</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/8>Tom H.</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/9>Gina</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/10>Ben</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/11>Joanne Jr.</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/12>Tom B.</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/13>Eilleen</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/14>Maureen</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/15>Joanne B.</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/16>Jack</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/17>First Last17</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/18>First Last18</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/19>First Last19</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/20>First Last20</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/21>First Last21</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/22>First Last22</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/23>First Last23</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/24>First Last24</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/25>First Last25</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/26>First Last26</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/27>First Last27</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/28>First Last28</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/29>First Last29</a></h2>
+    <h2><a href=https://mfbc.us/m/rjvmtk/30>First Last30</a></h2>
+</div>
+{% endblock %}
