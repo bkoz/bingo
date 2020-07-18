@@ -1,9 +1,12 @@
 #
-# bingo.py
+# make_bingo_template.py
 #
+
 
 #
 # Create an html page of players with playerks to bingo cards.
+#
+# This needs to be modified to create templates/index.html
 #
 
 def makePage() :
