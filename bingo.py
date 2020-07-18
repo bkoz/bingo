@@ -7,7 +7,7 @@
 #
 
 def makePage() :
-  title = "<title>Bingo</title>"
+  title = "<title>Let's Play Bingo</title>"
   header = "<h1>Bingo Cards</h1>"
   print(title)
   print(header)
