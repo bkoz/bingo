@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/bkozdemba/src/github/bkoz/bingo/venv"
+VIRTUAL_ENV="/home/bkozdemb-redhat.com/bingo/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

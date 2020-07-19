@@ -1,4 +1,5 @@
-#!/Users/bkozdemba/src/github/bkoz/bingo/venv/bin/python3
+#!/home/bkozdemb-redhat.com/bingo/venv/bin/python3
+
 # -*- coding: utf-8 -*-
 import re
 import sys
