@@ -3,7 +3,7 @@
 ## Do this first:
 
 Generate 30 free bingo cards from https://myfreebingocards.com/numbers/1-75/edit and save the 30 links in 
-a text file called `cards.txt`. Also, create a text file with 30 players names called `players.txt.
+a text file called `cards.txt`. Also, create a text file with 30 players names called `players.txt`.
 
 #### Create and activate the python environment.
 
