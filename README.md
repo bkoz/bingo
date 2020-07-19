@@ -29,9 +29,9 @@ flask http --port=5000
 ### In a 2nd terminal, create a tunnel with ngrok. Have everyone visit the URL reported by ngrok. 
 
 ```
-$ pip install pyngrok
-$ python
-python> ngrok http 5000
+source venv/bin/activate
+pip install pyngrok
+ngrok http 5000
 ```
 
 Optionally, create a bit.ly shortcut or create an index.html page with a redirect.
