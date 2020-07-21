@@ -5,7 +5,6 @@ app = Flask(__name__)
 
 bootstrap = Bootstrap(app)
 
-
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'), 404
@@ -18,9 +17,30 @@ def internal_server_error(e):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+  players = "players.txt"
+  cards = "cards.txt"
+  #
+  # href is a list of lists where each sublist contains a card URL and a player name.
+  #
+  href = [ ]
+  p = [ ]
+  c = [ ]
+  #
+  # Read in the player and card files, create an list of lists
+  # that the template can render as a series of href tags.
+  #
+  with open(players, 'r') as playerLines:
+    with open(cards, 'r') as cardLines:
+      for player, card in zip(playerLines, cardLines):
+        p.append(str.rstrip(player))
+        c.append(str.rstrip(card))
+        myList=[str.rstrip(card), str.rstrip(player)]
+        href.append(myList)
+  return render_template('index.html',playerList=href)
 
-
+#
+# Not used
+#
 @app.route('/user/<name>')
 def user(name):
     return render_template('user.html', name=name)
