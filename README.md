@@ -18,7 +18,7 @@ pip3 install -r requirements.txt
 
 ```
 export FLASK_APP=bingo.py
-flask http --port=5000
+flask run 
 ```
 
 #### In a 2nd terminal, create a tunnel with ngrok. Have everyone visit the URL reported by ngrok. 
